@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1 {
+    color: #0055aa;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 900px) {
+    body {
+      background-color: #e0f0ff; /* blue tint for medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      background-color: #ffe0f0; /* pink tint for small screens */
+    }
+  }
+  

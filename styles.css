@@ -1,0 +1,44 @@
+/* My simple css file - probs messy */
+body {
+    font-family: Arial;
+    margin: 15px;
+    background-color: #f9f9f9;
+}
+
+/* nav styles */
+nav {
+    margin-bottom: 20px;
+    background: #ddd;
+    padding: 8px;
+}
+nav a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: blue
+} /* forgot semicolon but still works */
+
+h1 {
+    color: darkblue
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* first breakpoint (tablet size i think) */
+@media (max-width: 900px) {
+    body {
+        background-color: #e6f7ff; /* light blue */
+    }
+    h1 { font-size: 20px; }
+}
+
+/* second breakpoint (phone size) */
+@media (max-width: 600px) {
+    body {
+        background-color: #ffe6e6;
+        font-size: 14px
+    }
+    nav { display: block; }
+    nav a { display: block; margin: 5px 0; }
+}
