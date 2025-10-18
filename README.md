@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Personal Reflection Journal
 
 This is my small journal project for my SE_19 module.
