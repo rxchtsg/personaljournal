@@ -1,0 +1,15 @@
+<%- include('../layout', { title: 'All Entries', body: `
+  <h1>All Entries</h1>
+  <ul>
+    ${entries.map(e => `
+      <li>
+        <a href="/entries/${e.id}">${e.title}</a>
+        <small style="color:#777">(${e.created_at})</small>
+        — <a href="/entries/${e.id}/edit">edit</a>
+        <form action="/entries/${e.id}/delete" method="post" style="display:inline">
+          <button type="submit">delete</button>
+        </form>
+      </li>
+    `).join('')}
+  </ul>
+` }) %>

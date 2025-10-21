@@ -1,0 +1,9 @@
+<%- include('../layout', { title: 'New Entry', body: `
+  <h1>New Entry</h1>
+  <form action="/entries" method="post">
+    <p><label>Title</label><br><input name="title" required></p>
+    <p><label>Body</label><br><textarea name="body" rows="6" required></textarea></p>
+    <button type="submit">Create</button>
+  </form>
+  <p><a href="/entries">Back</a></p>
+` }) %>
